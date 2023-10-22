@@ -17,3 +17,6 @@ https://github.com/ryoh07/gin-clean-webapp.git
 
 markdonw のpaste imageがwslでうまく動作しなかったときの対応
 https://masa86.net/vscode-paste-image/
+
+dockerの参考にもなる箇所
+https://github.com/arkuchy/clean-architecture-sample/tree/main

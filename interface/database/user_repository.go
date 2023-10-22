@@ -19,6 +19,15 @@ func NewUserRepository(db *xorm.Engine) repository.IUserRepository {
 func (r *UserRepository) SelectAllUsers(userId string) (*entity.User, error) {
 
 	user := entity.User{}
-	_, error := r.Table('users')
+	_, err := r.Table("user").
+		Where("id = ?", userId).
+		Get(&user)
+
+	if err != nil {
+		return nil, err
+
+	}
+
+	return &user, nil
 
 }
