@@ -1,4 +1,4 @@
-use clean_architecture;
+use user_manage;
 
 SET firstnameS utf8mb4;
 

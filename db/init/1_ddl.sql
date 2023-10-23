@@ -10,7 +10,7 @@ SET CHARSET utf8mb4;
 -- -----------------------------------------------------
 -- Table `user_manage`.`user`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `user_manage`.`user` (
+CREATE TABLE IF NOT EXISTS `user` (
   `id` VARCHAR(128) NOT NULL COMMENT 'ユーザID',
   `firstname` VARCHAR(64) NOT NULL COMMENT '1stName',
   `lastname` VARCHAR(64) NOT NULL COMMENT '2ndName',
